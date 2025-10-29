@@ -15,7 +15,7 @@ jobs:
       - name: Deploy to aaPanel
         uses: tunnaduong/aapanel-deploy-action@main
         with:
-          panel_url: http://panel1.emprelog.com
+          panel_url: http://140.238.181.188:7800/bbb3c408
           webhook_key: ${{ secrets.AAPANEL_WEBHOOK_KEY }}
           ntfy_topic: your-ntfy-topic
         env:
